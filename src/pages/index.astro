@@ -5,6 +5,7 @@ import Layout from "@layouts/Layout.astro";
 import Hero from "@components/home/Hero.astro";
 import Experience from "@components/home/Experience.astro";
 import ProjectsWrapper from "@components/general/ProjectsWrapper.astro";
+import Skills from "@components/general/Skills.astro";
 import MetaHead from "@components/general/MetaHead.astro";
 
 const featureProjects = info.projects.reduce((accumulator, project) => {
@@ -33,6 +34,9 @@ const featureProjects = info.projects.reduce((accumulator, project) => {
       <section>
         <h2 class="w-[15rem] dark:text-light mt-16">FEATURE PROJECTS</h2>
         <ProjectsWrapper projects={featureProjects} />
+      </section>
+      <section>
+        <Skills />
       </section>
     </Layout>
   </body>

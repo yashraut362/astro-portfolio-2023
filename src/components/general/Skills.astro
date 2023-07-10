@@ -1,0 +1,20 @@
+---
+import { info } from "@data";
+const skills = info.skills;
+---
+
+<div>
+  <h2 class="w-[15rem] dark:text-light mt-16">SKILLS</h2>
+  <div class="grid grid-cols-4 gap-5 py-16">
+    {
+      skills.map((skill) => {
+        return (
+          <div class="flex flex-col items-center justify-center">
+            <img class="h-10 w-10" src={skill.icon} alt="logo" />
+            <h3> {skill.name}</h3>
+          </div>
+        );
+      })
+    }
+  </div>
+</div>

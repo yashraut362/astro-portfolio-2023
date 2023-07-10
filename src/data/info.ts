@@ -17,7 +17,7 @@ export const info = {
       description: [
         "Testlify is the talent assessment platform helping companies hire the best talent quickly, easily, and accurately.",
         "- Developing Talent Assessment Platform with Javascript- based Frameworks Vue and React for Frontend. ",
-        "- For Backend development working on Loopback."
+        "- For Backend development working on Loopback.",
       ],
     },
     {
@@ -29,7 +29,7 @@ export const info = {
       description: [
         "- Developed a Learning Management and Content Management System",
         "- Used Vue Ecosystem (Nuxt , VueX) for frontend development",
-        "- Used Sails.js (Node.js) for backend development"
+        "- Used Sails.js (Node.js) for backend development",
       ],
     },
     {
@@ -41,7 +41,7 @@ export const info = {
       description: [
         "- Developed Hybrid(Android & iOS ) Mobile Application",
         "- Beezhive (Canadian SuperApp). Used Flutter For building mobile app UI.",
-        "- Used Firebase (Baas platform) for backend services."
+        "- Used Firebase (Baas platform) for backend services.",
       ],
     },
     {
@@ -53,7 +53,7 @@ export const info = {
       description: [
         "- Developed Hybrid(Android & iOS ) Mobile Application",
         "- Gullymart a Grocery app. Used Flutter For building mobile app UI.",
-        "- Used Firebase (Baas platform) for backend services. Mobile App Developer Intern"
+        "- Used Firebase (Baas platform) for backend services. Mobile App Developer Intern",
       ],
     },
   ],
@@ -65,9 +65,7 @@ export const info = {
       location: "University of Mumbai",
       startDate: "2018",
       endDate: "2021",
-      description: [
-        "CGPA : 8.5"
-      ],
+      description: ["CGPA : 8.5"],
     },
     {
       name: "Diploma in Information Technology",
@@ -75,9 +73,7 @@ export const info = {
       location: "Maharashta State Board of Technical Education",
       startDate: "2015",
       endDate: "2018",
-      description: [
-        "Percentage : 82.53%"
-      ],
+      description: ["Percentage : 82.53%"],
     },
     {
       name: "High School",
@@ -85,9 +81,7 @@ export const info = {
       location: "Secondary School Certificate ",
       startDate: "2005",
       endDate: "2015",
-      description: [
-        "Percentage : 83%"
-      ],
+      description: ["Percentage : 83%"],
     },
   ],
 
@@ -101,30 +95,94 @@ export const info = {
     {
       title: "DCverse Movie Streaming App",
       isFeatured: true,
-      thumbnail: "/assets/images/web/web1.jpg",
+      thumbnail: "/assets/images/web/dcverse.png",
       githubUrl: "https://github.com/yashraut362/DCVerse_MovieApp",
       liveUrl: "https://dcverse.netlify.app/",
     },
     {
       title: "Weshare File Sharing App",
       isFeatured: true,
-      thumbnail: "/assets/images/web/web5.png",
+      thumbnail: "/assets/images/web/weshare.png",
       githubUrl: "https://github.com/yashraut362/we-share",
       liveUrl: "https://wesharefiles.vercel.app/",
     },
     {
       title: "CryptoNation CryptoCurrency Tracker App",
-      isFeatured: true,
-      thumbnail: "/assets/images/web/web2.jpg",
+      isFeatured: false,
+      thumbnail: "/assets/images/web/cryptonation.png",
       githubUrl: "https://github.com/yashraut362/CryptoNation",
       liveUrl: "http://cryptonation.vercel.app/",
     },
     {
       title: "CoronaGo Covid-19 Tracker App",
-      isFeatured: true,
-      thumbnail: "/assets/images/web/web3.jpg",
+      isFeatured: false,
+      thumbnail: "/assets/images/web/coronago.png",
       githubUrl: "https://github.com/yashraut362/CoronaGo",
       liveUrl: "https://coronagoo.netlify.app/",
     },
+    {
+      title: "Youtube Thumbnail Grabber (NPM Package)",
+      isFeatured: true,
+      thumbnail: "/assets/images/os/os1.png",
+      githubUrl: "https://github.com/yashraut362/youtube-thumbnail-grabber",
+      liveUrl: "https://www.npmjs.com/package/youtube-thumbnail-grabber",
+    },
+    {
+      title: "Glasswidgets (Flutter Package)",
+      isFeatured: false,
+      thumbnail: "/assets/images/os/os2.png",
+      githubUrl: "https://github.com/yashraut362/Glasswidgets",
+      liveUrl: "https://pub.dev/packages/glasswidgets",
+    },
+    {
+      title: "Pothole Detection System",
+      isFeatured: false,
+      thumbnail: "/assets/images/mobile/pothole.png",
+      githubUrl: "https://github.com/yashraut362/Pothole_Challenge",
+      liveUrl: null,
+    },
+    {
+      title: "Know Your device",
+      isFeatured: true,
+      thumbnail: "/assets/images/mobile/mockup.png",
+      githubUrl: "https://github.com/yashraut362/KnowYourDevice",
+      liveUrl: null,
+    },
+    {
+      title: "Fitnese App",
+      isFeatured: false,
+      thumbnail: "/assets/images/mobile/fitnessapp.png",
+      githubUrl: "https://github.com/yashraut362/FitnessApp_Flutter",
+      liveUrl: null,
+    },
+    {
+      title: "Evently - host events in your area",
+      isFeatured: false,
+      thumbnail: "/assets/images/mobile/evently.png",
+      githubUrl: "https://github.com/yashraut362/Evently_Flutter",
+      liveUrl: null,
+    },
+    {
+      title: "Project Keeper",
+      isFeatured: false,
+      thumbnail: "/assets/images/mobile/projectkeeper.png",
+      githubUrl: "https://github.com/yashraut362/ProjectKeeper",
+      liveUrl: null,
+    },
+  ],
+
+  skills: [
+    { name: "Javascript", icon: "/svg/javascript.svg" },
+    { name: "Typescript", icon: "/svg/typescript.svg" },
+    { name: "Python", icon: "/svg/python.svg" },
+    { name: "Express", icon: "/svg/express.svg" },
+    { name: "React", icon: "/svg/react.svg" },
+    { name: "Vue", icon: "/svg/vue.svg" },
+    { name: "Nuxt", icon: "/svg/nuxt.svg" },
+    { name: "flutter", icon: "/svg/flutter.svg" },
+    { name: "Firebase", icon: "/svg/firebase.svg" },
+    { name: "MongoDB", icon: "/svg/mongo.svg" },
+    { name: "docker", icon: "/svg/docker.svg" },
+    { name: "git", icon: "/svg/git.svg" },
   ],
 };
