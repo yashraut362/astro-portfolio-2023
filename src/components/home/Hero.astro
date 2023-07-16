@@ -5,8 +5,17 @@ const { name, about } = Astro.props as IHeroProps;
 ---
 
 <section>
-  <p class="dark:text-light mt-[117px]">Hey, I’m</p>
-  <h1>{name}</h1>
+  <div
+    class="flex flex-col-reverse md:flex-row items-center justify-start py-5"
+  >
+    <div class="w-full md:w-1/2">
+      <p class="dark:text-light md:mt-[117px]">Hey, I’m</p>
+      <h1>{name}</h1>
+    </div>
+    <div class="w-full md:w-1/2 px-16">
+      <img class="w-fit h-fit" src="../../../public/yash.png" alt="yash" />
+    </div>
+  </div>
   <p class="dark:text-light text-lg mb-16">
     {about}
   </p>
