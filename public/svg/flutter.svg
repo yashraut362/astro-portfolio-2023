@@ -1,45 +1,18 @@
-
-  <svg viewBox="92.41 86.562 255.27 316.61" xmlns="http://www.w3.org/2000/svg">
-    <g transform="matrix(1, 0, 0, 1, 206.197174, 196.416718)" />
-    <g transform="matrix(1, 0, 0, 1, 92.409782, 86.562492)">
-      <polygon
-        class="st0"
-        points="157.67,0 0,157.67 48.8,206.47 255.27,0"
-        style="paint-order: fill; fill-opacity: 0.96"
-      />
-      <polygon
-        class="st0"
-        points="156.57,145.4 72.15,229.82 121.13,279.53 169.84,230.82 255.27,145.4"
-        style="paint-order: fill; fill-opacity: 0.96"
-      />
-      <polygon
-        class="st2"
-        points="121.13,279.53 158.21,316.61 255.27,316.61 169.84,230.82"
-        style="paint-order: fill; fill-opacity: 0.96"
-      />
-      <polygon
-        class="st3"
-        points="71.6,230.36 120.4,181.56 169.84,230.82 121.13,279.53"
-        style="paint-order: fill; fill-opacity: 0.96"
-      />
-      <linearGradient
-        id="SVGID_1_"
-        gradientUnits="userSpaceOnUse"
-        x1="-173.6875"
-        y1="548.7979"
-        x2="-172.968"
-        y2="548.5386"
-        gradientTransform="matrix(44.5891 0 0 -44.5901 7866.5254 24720.502)"
-      >
-        <stop offset="0" style="stop-color: #000000" />
-        <stop offset="1" style="stop-color: #000000; stop-opacity: 0" />
-      </linearGradient>
-      <polygon
-        class="st1"
-        points="121.13,279.53 161.69,266.07 165.72,234.94"
-        style="fill: url(#SVGID_1_); paint-order: fill; fill-opacity: 0.96"
-      />
-    </g>
-  </svg>
-
-
+<svg width="129" height="159" viewBox="0 0 129 159" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1_58)">
+<path d="M79.6943 0.180664L0.859253 79.0157L25.2593 103.416L128.494 0.180664H79.6943Z" fill="#FBB034" fill-opacity="0.96"/>
+<path d="M79.1442 72.8809L36.9342 115.091L61.4242 139.946L85.7792 115.591L128.494 72.8809H79.1442Z" fill="#FBB034" fill-opacity="0.96"/>
+<path d="M61.4243 139.946L79.9643 158.486H128.494L85.7793 115.591L61.4243 139.946Z" fill="#FBB034" fill-opacity="0.96"/>
+<path d="M36.6593 115.36L61.0593 90.9604L85.7793 115.59L61.4243 139.945L36.6593 115.36Z" fill="#FBB034" fill-opacity="0.96"/>
+<path d="M61.4243 139.946L81.7043 133.216L83.7193 117.651L61.4243 139.946Z" fill="url(#paint0_linear_1_58)" fill-opacity="0.96"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_1_58" x1="61.8373" y1="124.955" x2="77.8783" y2="130.736" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFBBBB"/>
+<stop offset="1" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="clip0_1_58">
+<rect width="127.635" height="158.305" fill="white" transform="translate(0.859375 0.180176)"/>
+</clipPath>
+</defs>
+</svg>

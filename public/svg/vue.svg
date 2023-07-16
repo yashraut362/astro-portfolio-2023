@@ -1,19 +1,11 @@
-
-  <svg
-    viewBox="188.015 170.374 122.88 106.42"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <polygon
-      class="st0"
-      points="75.63,0 61.44,24.58 47.25,0 0,0 61.44,106.42 122.88,0 75.63,0"
-      transform="matrix(1, 0, 0, 1, 188.015335, 170.373886)"
-    />
-    <polygon
-      class="st1"
-      points="75.63,0 61.44,24.58 47.25,0 24.58,0 61.44,63.85 98.3,0 75.63,0"
-      style="fill: rgb(66, 84, 102)"
-      transform="matrix(1, 0, 0, 1, 188.015335, 170.373886)"
-    />
-  </svg>
-
-
+<svg width="124" height="107" viewBox="0 0 124 107" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1_89)">
+<path d="M76.2723 0.122559L62.0823 24.7026L47.8923 0.122559H0.642334L62.0823 106.543L123.522 0.122559H76.2723Z" fill="#FBB034"/>
+<path d="M76.2724 0.122559L62.0824 24.7026L47.8924 0.122559H25.2224L62.0824 63.9726L98.9424 0.122559H76.2724Z" fill="#666242"/>
+</g>
+<defs>
+<clipPath id="clip0_1_89">
+<rect width="122.88" height="106.42" fill="white" transform="translate(0.64209 0.122559)"/>
+</clipPath>
+</defs>
+</svg>
