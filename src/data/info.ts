@@ -1,5 +1,5 @@
 export const info = {
-  baseUrl: "https://astro-portfolio-uzair.vercel.app",
+  baseUrl: "https://www.yashraut.me",
   name: "Yash Raut",
   jobDescription: "Web Developer",
   about: `Hello! I'm a Mumbai-based software engineer specializing in front-end development. With 3+ years of experience in the computer software industry, I've successfully completed numerous web projects from scratch. I have a passion for continuous learning and exploring new technologies to enhance my skills.
