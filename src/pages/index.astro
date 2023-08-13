@@ -8,10 +8,6 @@ import ProjectsWrapper from "@components/general/ProjectsWrapper.astro";
 import Skills from "@components/general/Skills.astro";
 import MetaHead from "@components/general/MetaHead.astro";
 
-<!-- 100% privacy-first analytics -->
-<script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
-<noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
-
 const featureProjects = info.projects.reduce((accumulator, project) => {
   if (accumulator.length < 6 && project.isFeatured) {
     accumulator.push(project);
@@ -29,7 +25,7 @@ const featureProjects = info.projects.reduce((accumulator, project) => {
       ogImageUrl={"/assets/images/profile.webp"}
     />
   </head>
-
+<script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
   <body>
     <Layout>
       <Hero name={info.name} about={info.about} />
