@@ -9,43 +9,71 @@ const { name, about } = Astro.props as IHeroProps;
     <div class="w-full md:w-1/2">
       <p class="dark:text-light md:mt-[117px]">Hey, I’m</p>
       <h1>{name}</h1>
-     <!-- Base -->
+      <div
+        class="hidden md:flex flex-row items-center justify-start space-x-20"
+      >
+        <a
+          class="group relative inline-block text-md font-semibold text-blue focus:outline-none focus:ring active:text-blue"
+          href="https://calendly.com/yashraut362"
+          target="_blank"
+        >
+          <span class="absolute inset-0 border border-current"></span>
+          <span
+            class="block border border-current bg-primary px-14 py-3 transition-transform group-hover:-translate-x-1 group-hover:-translate-y-1"
+          >
+            Connect
+          </span>
+        </a>
 
-<div class="hidden md:flex flex-row items-center justify-start space-x-20">
-<a
-  class="group relative inline-block text-md font-semibold text-blue focus:outline-none focus:ring active:text-blue"
-  href="https://calendly.com/yashraut362"
-   target="_blank"
->
-  <span class="absolute inset-0 border border-current"></span>
-  <span
-    class="block border border-current bg-primary px-14 py-3 transition-transform group-hover:-translate-x-1 group-hover:-translate-y-1"
-  >
-    Connect
-  </span>
-</a>
-
-<a
-  class="group relative inline-block text-md font-semibold text-white focus:outline-none focus:ring"
-  href="https://drive.google.com/file/d/1rvBSY9A-XwxSMDvPwcSURpYpcxuR89oc/view"
-  target="_blank"
->
-  <span
-    class="absolute inset-0 border border-blue group-active:border-blue"
-  ></span>
-  <span
-    class="block border border-blue bg-blue px-14 py-3 transition-transform active:border-blue active:bg-blue group-hover:-translate-x-1 group-hover:-translate-y-1"
-  >
-  Resume
-  </span>
-</a>
-</div>
-
-
-<!-- Border -->
+        <a
+          class="group relative inline-block text-md font-semibold text-white focus:outline-none focus:ring"
+          href="https://drive.google.com/file/d/1rvBSY9A-XwxSMDvPwcSURpYpcxuR89oc/view"
+          target="_blank"
+        >
+          <span
+            class="absolute inset-0 border border-blue group-active:border-blue"
+          ></span>
+          <span
+            class="block border border-blue bg-blue px-14 py-3 transition-transform active:border-blue active:bg-blue group-hover:-translate-x-1 group-hover:-translate-y-1"
+          >
+            Resume
+          </span>
+        </a>
+      </div>
     </div>
     <div class="w-full md:w-1/2 px-16">
       <img class="w-fit h-fit" src="./yash.webp" alt="yash" />
+    </div>
+    <div
+      class="flex md:hidden flex-row items-center justify-center space-x-10 pt-10"
+    >
+      <a
+        class="group relative inline-block text-md font-semibold text-blue focus:outline-none focus:ring active:text-blue"
+        href="https://calendly.com/yashraut362"
+        target="_blank"
+      >
+        <span class="absolute inset-0 border border-current"></span>
+        <span
+          class="block border border-current bg-primary px-10 py-3 transition-transform group-hover:-translate-x-1 group-hover:-translate-y-1"
+        >
+          Connect
+        </span>
+      </a>
+
+      <a
+        class="group relative inline-block text-md font-semibold text-white focus:outline-none focus:ring"
+        href="https://drive.google.com/file/d/1rvBSY9A-XwxSMDvPwcSURpYpcxuR89oc/view"
+        target="_blank"
+      >
+        <span
+          class="absolute inset-0 border border-blue group-active:border-blue"
+        ></span>
+        <span
+          class="block border border-blue bg-blue px-10 py-3 transition-transform active:border-blue active:bg-blue group-hover:-translate-x-1 group-hover:-translate-y-1"
+        >
+          Resume
+        </span>
+      </a>
     </div>
   </div>
   <p class="dark:text-light text-lg mb-16">
