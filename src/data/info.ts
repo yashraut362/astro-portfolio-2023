@@ -92,19 +92,27 @@ export const info = {
   },
 
   projects: [
-    {
-      title: "DCverse Movie Streaming App",
-      isFeatured: true,
-      thumbnail: "/assets/images/web/dcverse.webp",
-      githubUrl: "https://github.com/yashraut362/DCVerse_MovieApp",
-      liveUrl: "https://dcverse.netlify.app/",
-    },
+   
     {
       title: "Weshare File Sharing App",
       isFeatured: true,
       thumbnail: "/assets/images/web/weshare.webp",
       githubUrl: "https://github.com/yashraut362/we-share",
       liveUrl: "https://wesharefiles.vercel.app/",
+    },
+    {
+      title: "LinkLoom Link Shortner App",
+      isFeatured: true,
+      thumbnail: "/assets/images/web/linkloom.png",
+      githubUrl: "https://github.com/yashraut362/LinkLoom",
+      liveUrl: "https://linklooms.vercel.app/",
+    },
+    {
+      title: "DCverse Movie Streaming App",
+      isFeatured: true,
+      thumbnail: "/assets/images/web/dcverse.webp",
+      githubUrl: "https://github.com/yashraut362/DCVerse_MovieApp",
+      liveUrl: "https://dcverse.netlify.app/",
     },
     {
       title: "CryptoNation CryptoCurrency Tracker App",
@@ -136,7 +144,7 @@ export const info = {
     },
     {
       title: "Pothole Detection System",
-      isFeatured: false,
+      isFeatured: true,
       thumbnail: "/assets/images/mobile/pothole.webp",
       githubUrl: "https://github.com/yashraut362/Pothole_Challenge",
       liveUrl: null,
