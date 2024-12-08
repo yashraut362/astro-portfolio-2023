@@ -91,8 +91,17 @@ export const info = {
     linkedin: "https://www.linkedin.com/in/yashraut362",
   },
 
+  liveProjects: [
+    {
+      title: "Weshare File Sharing App",
+      isFeatured: true,
+      thumbnail: "/assets/images/web/weshare.webp",
+      githubUrl: "https://github.com/yashraut362/we-share",
+      liveUrl: "https://wesharefiles.vercel.app/",
+    },
+  ],
+
   projects: [
-   
     {
       title: "Weshare File Sharing App",
       isFeatured: true,
