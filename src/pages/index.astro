@@ -7,6 +7,9 @@ import Experience from "@components/home/Experience.astro";
 import ProjectsWrapper from "@components/general/ProjectsWrapper.astro";
 import Skills from "@components/general/Skills.astro";
 import MetaHead from "@components/general/MetaHead.astro";
+import WorkWrapper from "@components/general/WorkWrapper.astro";
+
+const Works = info.works.map((work) => work);
 ---
 
 <!DOCTYPE html>
@@ -27,28 +30,11 @@ import MetaHead from "@components/general/MetaHead.astro";
       <Experience title={"EXPERIENCE"} details={info.experience} />
       <Experience title={"EDUCATION"} details={info.education} />
 
+      <h1 style="line-height: 1.2;" class="pb-10">Professional Projects</h1>
+      <WorkWrapper works={Works} />
       <section>
-        <p class="text-4xl text-white">
-          Explore my <span class="text-blue">projects</span> by clicking
-          <a href="/work" class="relative text-blue cursor-pointer">
-            here.
-            <span class="absolute w-calc-full bottom-0 left-[-25px] top-[45px]">
-              <svg
-                class="-z-10 fill-blue"
-                xmlns="http://www.w3.org/2000/svg"
-                width="120"
-                height="10"
-                viewBox="0 0 120 10"
-                aria-hidden="true"
-                preserveAspectRatio="none"
-              >
-                <path
-                  d="M118.273 6.09C79.243 4.558 40.297 5.459 1.305 9.034c-1.507.13-1.742-1.521-.199-1.81C39.81-.228 79.647-1.568 118.443 4.2c1.63.233 1.377 1.943-.17 1.89Z"
-                ></path>
-              </svg>
-            </span>
-          </a>
-        </p>
+        <h2 class="w-[15rem] dark:text-light mt-16">PERSONAL PROJECTS</h2>
+        <ProjectsWrapper projects={info.projects} />
       </section>
       <section>
         <Skills />
