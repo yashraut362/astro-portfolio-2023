@@ -15,6 +15,9 @@ module.exports = {
         inter: ["Inter", "sans-serif"],
         outfit: ["Outfit", "sans-serif"],
       },
+      width: {
+        "calc-full": "calc(100% + 1rem)",
+      },
     },
   },
   plugins: [],
