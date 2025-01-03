@@ -1,12 +1,12 @@
 ---
 import { info } from "@data";
 
-import ProjectsWrapper from "@components/general/ProjectsWrapper.astro";
 import MetaHead from "@components/general/MetaHead.astro";
 import Layout from "@layouts/Layout.astro";
+import WorkWrapper from "@components/general/WorkWrapper.astro";
+import ProjectsWrapper from "@components/general/ProjectsWrapper.astro";
 
-const Projects = info.projects.map((project) => project);
-const liveProjects = info.liveProjects.map((project) => project);
+const Works = info.works.map((work) => work);
 ---
 
 <!DOCTYPE html>
@@ -21,8 +21,12 @@ const liveProjects = info.liveProjects.map((project) => project);
 
   <body>
     <Layout>
-      <h1 style="line-height: 1.2;">Professional Projects</h1>
-      <ProjectsWrapper projects={Projects} />
+      <h1 style="line-height: 1.2;" class="pb-10">Professional Projects</h1>
+      <WorkWrapper works={Works} />
+      <section>
+        <h2 class="w-[15rem] dark:text-light mt-16">PERSONAL PROJECTS</h2>
+        <ProjectsWrapper projects={info.projects} />
+      </section>
     </Layout>
   </body>
 </html>

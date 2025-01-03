@@ -36,3 +36,15 @@ export interface IProjects {
 export interface IProjectDetails {
   projectDetail: IProject;
 }
+
+export interface IWork {
+  title: string;
+  desc: string;
+  role: string;
+  thumbnail: string;
+  link: string;
+}
+
+export interface IWorks {
+  works: IWork[];
+}

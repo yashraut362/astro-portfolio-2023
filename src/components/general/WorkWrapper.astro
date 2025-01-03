@@ -1,0 +1,10 @@
+---
+import { IWorks } from "@types";
+import WorkCard from "./WorkCard.astro";
+
+const { works } = Astro.props as IWorks;
+---
+
+<div class="flex flex-col space-y-10">
+  {works.map((work, index) => <WorkCard workDetail={work} index={index} />)}
+</div>
